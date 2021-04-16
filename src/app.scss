@@ -1,0 +1,17 @@
+%message-shared {
+  display:flex;
+  list-style: none;
+}
+
+
+nav{
+  .header-logo{
+   @extend %message-shared;
+  }
+  .nav-list{
+   @extend  %message-shared;
+  }
+  .accedi-button-header{
+   @extend  %message-shared;
+  }
+}

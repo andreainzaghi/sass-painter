@@ -1,0 +1,4 @@
+nav .accedi-button-header, nav .nav-list, nav .header-logo {
+  display: flex;
+  list-style: none;
+}
