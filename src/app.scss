@@ -1,17 +1,15 @@
-%message-shared {
-  display:flex;
-  list-style: none;
-}
-
 
 nav{
   .header-logo{
-   @extend %message-shared;
+    display:flex;
+    list-style: none;
   }
   .nav-list{
-   @extend  %message-shared;
+    display:flex;
+    list-style: none;
   }
   .accedi-button-header{
-   @extend  %message-shared;
+    display:flex;
+    list-style: none;
   }
 }
