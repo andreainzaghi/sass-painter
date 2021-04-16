@@ -1,4 +1,12 @@
-nav .accedi-button-header, nav .nav-list, nav .header-logo {
+nav .header-logo {
+  display: flex;
+  list-style: none;
+}
+nav .nav-list {
+  display: flex;
+  list-style: none;
+}
+nav .accedi-button-header {
   display: flex;
   list-style: none;
 }

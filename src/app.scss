@@ -1,15 +1,15 @@
-
+@mixin reset-list {
+  display:flex;
+  list-style: none;
+}
 nav{
   .header-logo{
-    display:flex;
-    list-style: none;
+   @include reset-list;
   }
   .nav-list{
-    display:flex;
-    list-style: none;
+   @include reset-list;
   }
   .accedi-button-header{
-    display:flex;
-    list-style: none;
+   @include reset-list;
   }
 }
