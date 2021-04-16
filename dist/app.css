@@ -1,12 +1,44 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+}
 nav .header-logo {
   display: flex;
-  list-style: none;
 }
-nav .nav-list {
-  display: flex;
-  list-style: none;
+nav .header-logo img {
+  padding: 10px 0px;
 }
-nav .accedi-button-header {
+nav .header-logo h1 {
+  color: #FA1B0C;
+}
+nav .nav-list ul {
   display: flex;
+}
+nav .nav-list ul li {
   list-style: none;
+  padding: 0px 10px;
+}
+nav .accedi-button-header ul {
+  display: flex;
+}
+nav .accedi-button-header ul li {
+  list-style: none;
+  padding: 0px 10px;
+}
+
+.nav-seconda {
+  height: 60px;
+  background-color: #E8EBEF;
+}
+.nav-seconda padding ul {
+  display: flex;
+  text-align: center;
+  vertical-align: middle;
+  align-items: center;
+}
+.nav-seconda padding ul li {
+  list-style: none;
+  padding: 15px;
 }

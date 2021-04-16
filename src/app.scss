@@ -1,15 +1,58 @@
 @mixin reset-list {
-  display:flex;
   list-style: none;
+
 }
+  $primary-color: #FA1B0C;
 nav{
+    display: flex;
+    justify-content: space-between;
+    height:50px;
+    align-items: center;
   .header-logo{
-   @include reset-list;
+   display:flex;
+   img{
+     padding: 10px 0px;
+   }
+   h1{
+     color:$primary-color;
+   }
+
   }
   .nav-list{
-   @include reset-list;
+
+    ul{
+      display:flex;
+      li{
+           @include reset-list;
+           padding:0px 10px;
+      }
+    }
   }
   .accedi-button-header{
-   @include reset-list;
+    ul{
+         display: flex;
+      li{
+       @include reset-list;
+        padding:0px 10px;
+      }
+    }
+
+  }
+}
+// seconda navbar
+.nav-seconda{
+  height:60px;
+  background-color: #E8EBEF;
+  padding
+  ul{
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    li{
+         @include reset-list;
+      padding:15px;
+
+    }
   }
 }
