@@ -2,11 +2,20 @@
   list-style: none;
 
 }
+
   $primary-color: #FA1B0C;
+    $white: #fff;
+    $blu-botton:#0D66D0;
 nav{
     display: flex;
+    background-color:   $white;
+    top:0px;
+    left:7px;
+    right:7px;
     justify-content: space-between;
     height:50px;
+    z-index: 33;
+    position: fixed;
     align-items: center;
   .header-logo{
    display:flex;
@@ -42,8 +51,17 @@ nav{
 // seconda navbar
 .nav-seconda{
   height:60px;
+      position: fixed;
   background-color: #E8EBEF;
-  padding
+z-index: 33;
+top:50px;
+left:0;
+right:0;
+.a11a{
+  height: 60px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
   ul{
     display: flex;
     text-align: center;
@@ -55,4 +73,74 @@ nav{
 
     }
   }
+  button{
+    background-color: blue;
+    border-radius: 30px;
+    border: none;
+    padding:9px;
+    color:$white;
+  }
+}
+}
+// hero
+
+.hero{
+  position:relative;
+  img{
+
+    width: 100%;
+  }
+  .hero-text{
+    color:  $white;
+    width:40%;
+    position: absolute;
+    top:40%;
+    font-size: 26px;
+    left:100px;
+    img{
+      height: 80px;
+      width: 80px;
+
+    }
+    button:first-child {
+      background-color: transparent;
+      color:   $white;
+      border-radius: 30px;
+      padding: 8px;
+      border: 3px solid   $white;
+    }
+    button:last-child {
+      background-color: $blu-botton;
+      color: $white;
+      padding: 10px;
+      margin:20px;
+        border: none;
+      border-radius: 30px;
+
+    }
+  }
+}
+// main
+.first-main{
+  margin:auto;
+  font-size: 20px;
+  width:60%;
+  text-align: center;
+}
+
+
+.paragrafi-notizie{
+  display: flex;
+    width:80%;
+    margin:auto;
+    margin-top: 50px;
+  .para-grafo{
+    font-size: 20px;
+  }
+.img-grafo{
+  img{
+    height:450px;
+
+  }
+}
 }

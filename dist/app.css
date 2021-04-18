@@ -1,7 +1,13 @@
 nav {
   display: flex;
+  background-color: #fff;
+  top: 0px;
+  left: 7px;
+  right: 7px;
   justify-content: space-between;
   height: 50px;
+  z-index: 33;
+  position: fixed;
   align-items: center;
 }
 nav .header-logo {
@@ -30,15 +36,87 @@ nav .accedi-button-header ul li {
 
 .nav-seconda {
   height: 60px;
+  position: fixed;
   background-color: #E8EBEF;
+  z-index: 33;
+  top: 50px;
+  left: 0;
+  right: 0;
 }
-.nav-seconda padding ul {
+.nav-seconda .a11a {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-seconda .a11a ul {
   display: flex;
   text-align: center;
   vertical-align: middle;
   align-items: center;
 }
-.nav-seconda padding ul li {
+.nav-seconda .a11a ul li {
   list-style: none;
   padding: 15px;
+}
+.nav-seconda .a11a button {
+  background-color: blue;
+  border-radius: 30px;
+  border: none;
+  padding: 9px;
+  color: #fff;
+}
+
+.hero {
+  position: relative;
+}
+.hero img {
+  width: 100%;
+}
+.hero .hero-text {
+  color: #fff;
+  width: 40%;
+  position: absolute;
+  top: 40%;
+  font-size: 26px;
+  left: 100px;
+}
+.hero .hero-text img {
+  height: 80px;
+  width: 80px;
+}
+.hero .hero-text button:first-child {
+  background-color: transparent;
+  color: #fff;
+  border-radius: 30px;
+  padding: 8px;
+  border: 3px solid #fff;
+}
+.hero .hero-text button:last-child {
+  background-color: #0D66D0;
+  color: #fff;
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  border-radius: 30px;
+}
+
+.first-main {
+  margin: auto;
+  font-size: 20px;
+  width: 60%;
+  text-align: center;
+}
+
+.paragrafi-notizie {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+}
+.paragrafi-notizie .para-grafo {
+  font-size: 20px;
+}
+.paragrafi-notizie .img-grafo img {
+  height: 450px;
 }
